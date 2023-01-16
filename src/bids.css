@@ -1,0 +1,45 @@
+.bids{
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 0 10%;
+}
+
+.date-container{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+.left-arrow, .right-arrow{
+    padding: 0.2em 0.5em;
+    padding-bottom: 0.3em;
+    font-size: 25px;
+    color: #fff;
+    background: darkgreen;
+    border: 4px solid darkgreen;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.left-arrow:hover, .right-arrow:hover{
+    background: #fff;
+    color: darkgreen;
+}
+.left-arrow{
+    margin-right: 0.4em;
+}
+.right-arrow{
+    margin-left: 0.4em;
+}
+.date{
+    max-width: 250px;
+    text-align: left;
+    padding: 0.4em;
+    color: #fff;
+    background: darkgreen;
+    border: 4px solid darkgreen;
+    border-radius: 0.5em;   
+}

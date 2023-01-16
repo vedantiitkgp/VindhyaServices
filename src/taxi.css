@@ -1,0 +1,18 @@
+.taxi{
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.check-btn{
+    margin-top: 1.5em;
+    background: #6f48eb;
+    padding: 0.7em;
+    border-radius: 0.5em;
+    cursor: pointer;
+}

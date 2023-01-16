@@ -1,13 +1,41 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {
+  createBrowserRouter,
+  RouterProvider
+} from 'react-router-dom'
 import './index.css';
+import Taxi from './Taxi';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Bids, { BidsLoader } from './Bids';
+
+const router = createBrowserRouter([
+  {
+    path : '/',
+    element : <div> Hello World </div>
+  },
+  {
+    path : 'taxi',
+    // element : <Taxi />,
+    children : [
+      {
+        path : 'bids/:date',
+        element : <Bids />,
+        loader : BidsLoader
+      },
+      {
+        path : '',
+        element : <Taxi />
+      }       
+    ]
+  }
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 
