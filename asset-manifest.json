@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/vindhya-services/static/css/main.4b36fafd.css",
+    "main.js": "/vindhya-services/static/js/main.699b8cdd.js",
+    "static/js/787.b2e1e4cf.chunk.js": "/vindhya-services/static/js/787.b2e1e4cf.chunk.js",
+    "index.html": "/vindhya-services/index.html",
+    "main.4b36fafd.css.map": "/vindhya-services/static/css/main.4b36fafd.css.map",
+    "main.699b8cdd.js.map": "/vindhya-services/static/js/main.699b8cdd.js.map",
+    "787.b2e1e4cf.chunk.js.map": "/vindhya-services/static/js/787.b2e1e4cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b36fafd.css",
+    "static/js/main.699b8cdd.js"
+  ]
+}
